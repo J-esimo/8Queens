@@ -20,7 +20,6 @@ class App
         static const int delta = 17;
         sf::RenderWindow *window;
         sf::RectangleShape board[size][size];
-        sf::Sprite queen;
         sf::Texture texture;
         sf::Text attempts;
         sf::Font font;
